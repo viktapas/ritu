@@ -1,0 +1,14 @@
+@import "../../SCSS/abstracts/variable";
+
+.rt-searchbox {
+  &__input {
+    font-family: inherit;
+    font-size: 1.6rem;
+    background-color: $color-gray-1;
+    padding: 1rem 2rem;
+    width: 38.8rem;
+    border-radius: 1.2rem;
+    outline: none;
+    border: none;
+  }
+}

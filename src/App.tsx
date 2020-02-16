@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.scss';
+import Window from './components/Window';
 
 function App() {
   return (
-    <div className="App">
+    <div className="rt-app">
+      <Window/>
     </div>
   );
 }

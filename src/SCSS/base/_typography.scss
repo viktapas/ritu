@@ -1,0 +1,7 @@
+body {
+  & * {
+    font-family: "Roboto";
+    font-size: $default-font-size;
+    color: $color-primary;
+  }
+}
