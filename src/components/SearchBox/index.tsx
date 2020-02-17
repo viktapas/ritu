@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./styles.scss";
-import {SearchBoxProps, SearchBoxState} from "./interface";
+import {IProps, IState} from "./interface";
 
-class SearchBox extends Component<SearchBoxProps, SearchBoxState> {
+class SearchBox extends Component<IProps, IState> {
   constructor(props:any) {
     super(props)
     this.state = {

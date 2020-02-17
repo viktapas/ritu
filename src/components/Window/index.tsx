@@ -2,13 +2,14 @@ import React from "react";
 import WindowLeft from "./WindowLeft"
 import WindowRight from "./WindowRight"
 import "./styles.scss";
+import Flex from "../../elements/Flex";
 
 function Window(props:any) {
   return (
-    <div className={"rt-flex rt-flex--x rt-win"}>
-      <WindowLeft/>
-      <WindowRight/>
-    </div>
+      <Flex expand>
+        <WindowLeft/>
+        <WindowRight/>
+      </Flex>
   )
 }
 

@@ -7,11 +7,27 @@
   &--l {
     flex: 1;
     background-color: $color-bg;
-    &__searchbox {
-      display: flex;
-      justify-content: center;
-      padding: 3.3rem 0;
-    }
+    padding-top: 3.3rem;
+    > section {
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+      &:nth-child(2n) {
+        background-color: rgb(255, 231, 231);
+      }
+      &:nth-child(2n-1) {
+        background-color: rgb(252, 255, 232);
+      }
+      &:nth-child(1) {
+        display: flex;
+        justify-content: center;
+      }
+      &:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+      }
+    } 
   }
   &--r {
     flex: 1;

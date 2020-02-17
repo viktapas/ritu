@@ -1,5 +1,5 @@
-export interface SearchBoxProps {}
+export interface IProps {}
 
-export interface SearchBoxState {
+export interface IState {
   value: string,
 }
